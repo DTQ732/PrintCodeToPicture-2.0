@@ -1,0 +1,5 @@
+﻿main.obj : error LNK2019: 无法解析的外部符号 libiconv_open，该符号在函数 "int __cdecl UTF8ToGB2312(char *,char *,unsigned __int64)" (?UTF8ToGB2312@@YAHPEAD0_K@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 libiconv，该符号在函数 "int __cdecl UTF8ToGB2312(char *,char *,unsigned __int64)" (?UTF8ToGB2312@@YAHPEAD0_K@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 libiconv_close，该符号在函数 "int __cdecl UTF8ToGB2312(char *,char *,unsigned __int64)" (?UTF8ToGB2312@@YAHPEAD0_K@Z) 中被引用
+libiconv.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\work\vs2019_project\PrintCodeToPicture\x64\Debug\PrintCodeToPicture.exe : fatal error LNK1120: 3 个无法解析的外部命令
