@@ -1,9 +1,10 @@
 #pragma once
 
+#pragma warning(disable: 4068 4819 4996)
+
 #include <easyx.h>			// 引用图形库头文件
 #include <conio.h>
 #include <string>
-#include <locale.h>
 #include <fstream>
 #include <vector>
 #include <graphics.h>
@@ -19,8 +20,6 @@
 #else
 #pragma comment(lib,"charsetdetect.lib")
 #endif // _DEBUG
-
-
 
 using namespace std;
 // 打印类

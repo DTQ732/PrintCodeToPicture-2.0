@@ -77,6 +77,7 @@ int CPrintCode::initText()
 	}
 	resetText();
 	m_texts = texts;
+	return 1;
 }
 
 void CPrintCode::resetText()
